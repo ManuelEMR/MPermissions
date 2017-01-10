@@ -24,7 +24,7 @@ public class Permission {
         return mIsGranted;
     }
 
-    public boolean isShowRequestRationale() {
+    public boolean shouldShowRequestRationale() {
         return mShowRequestRationale;
     }
 }
