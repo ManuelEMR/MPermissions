@@ -1,5 +1,26 @@
 # MPermissions
-Simply to a maximum Android M permission request
+Simplify to a maximum Android M permission request
+
+# Setup #
+
+To use this library your ```minSdkVersion``` must be >= 9.
+
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+Then add the dependency:
+```
+dependencies {
+    compile 'com.github.ManuelEMR:MPermissions:v0.2-beta'
+}
+```
 
 # Usage #
 
